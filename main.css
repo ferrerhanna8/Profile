@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #1E2136, #010326);
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 60px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #BBA6DD !important;
+    font-weight: 600;
+    text-align: left;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.fa-bars {
+    color: #BBA6DD;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/*--------------banner section--------------*/
+
+#banner {
+    background-image: linear-gradient(to right, #BBA6DD, #8C7DA8, #64557B, #1E2136);
+    color: #1E2136;
+    padding-top: 5%;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.promo-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.bottom-img {
+    width: 100%;
+    height: 280px;
+    padding-top: 10px;
+}
+
+.img-fluid {
+    height: 350px;
+    width: 300px;
+    padding-bottom: 40px;
+}
+
+/*------------Background Section-----------*/
+
+#Background {
+    background-image: linear-gradient(to right, #BBA6DD, #8C7DA8, #64557B, #1E2136);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#Background ul li {
+    margin: 10px 0;
+}
+
+#Background ul {
+    margin-left: 20px;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.img-fluid {
+    height: 350px;
+    width: 350px;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+/*------------Hobby Section------------*/
+
+#hobby {
+    padding: 80px 0;
+    background-image: linear-gradient(to bottom, #BBA6DD, #8C7DA8, #64557B);
+}
+
+.hobby-img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.hobby {
+    padding: 20px;
+}
+
+.hobby h4 {
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.hobby-image {
+    height: 100px;
+    width: 100px;
+}
+.title::before {
+    content: '';
+    background: #1E2136;
+    height: 5px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.title::after {
+    content: '';
+    background: #1E2136;
+    height: 5px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*------------Achievements Section------------*/
+
+#achievements {
+    padding: 80px 0;
+    background-image: linear-gradient(to top, #BBA6DD, #8C7DA8, #64557B);
+}
+
+.achievements-img {
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.achievements {
+    padding: 20px;
+}
+
+.achievements-img1 {
+    width: 120px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.title::before {
+    content: '';
+    background: #1E2136;
+    height: 5px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.title::after {
+    content: '';
+    background: #1E2136;
+    height: 5px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*------------Contact Section------------*/
+
+#contact-media {
+    background-image: linear-gradient(to top, #1E2136, #010326);
+    padding: 20px 0;
+}
+
+#contact-media p {
+    color: #BBA6DD;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.social-icons img {
+    width: 40px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+/*------------Footer Section------------*/
+
+#footer {
+    color: #BBA6DD;
+}
+
+.footer-box img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #1E2136, #010326);
+}
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to top, #BBA6DD, #8C7DA8, #64557B, #1E2136);
+}
+
+hr {
+    background-color: #BBA6DD;
+}
+
+.copyright {
+    margin-bottom: 0;
+    text-align: center;
+}
